@@ -1,0 +1,52 @@
+div.agro-1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+body 
+{
+    background-color:#75C9AD;
+    color:brown;
+
+     margin:0px;
+    padding:0px;
+}
+.título
+{
+    font: size 35px; 
+    color: #000;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.subtítulo
+{
+    color: #000;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: size 25px; ;
+}
+.subtítulo3
+{
+    color: #000;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.ul
+{
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;   
+}
+
+.parágrafo
+
+{
+    font-weight:bold;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;  }

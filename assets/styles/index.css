@@ -1,3 +1,8 @@
+.logo {
+    width: 180px;
+    height: auto;
+}
+
 div.agro-1 img {
     width: 100%;
     height: auto;
@@ -57,8 +62,14 @@ nav a:hover {
     text-align: justify;
     font-weight: normal;
     line-height: 1.6;
-    margin: 20px;
+    background-color: #ffffff;
+    border: 2px solid #386641;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.12);
 }
+
 
 /* Parágrafos */
 .parágrafo {
@@ -69,7 +80,14 @@ nav a:hover {
 /* Listas */
 .ul {
     line-height: 1.8;
+    background-color: #ffffff;
+    border: 2px solid #386641;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.12);
 }
+
 
 /* Imagem principal */
 .agro-1 {

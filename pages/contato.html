@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Nós</title>
+    <title>Contato</title>
     <link rel="stylesheet" href="../assets/styles/contato.css">
 </head>
 <body>
@@ -14,6 +14,110 @@
         <a href="produtos.html">Produtos</a> |
         <a href="promoções.html">Promoções</a> |
         <a href="detalhes dos produtos.html">Detalhes dos produtos</a> |
-   
+   </nav>
+
+   <h2 class="subtítulo">Entre em Contato</h2>
+
+    <h3 class="subtítulo3">
+        Estamos à disposição para atender você!
+        Entre em contato conosco para tirar dúvidas,
+        conhecer nossos produtos ou solicitar informações.
+    </h3>
+
+    <hr>
+
+    <!-- Informações de contato -->
+    <h2 class="subtítulo">Nossos Canais de Atendimento</h2>
+
+    <p class="parágrafo">
+        <strong>Telefone:</strong> (47) 3330-3325
+    </p>
+
+    <p class="parágrafo">
+        <strong>Email:</strong> agropecuariamaria@hotmail.com
+    </p>
+
+    <p class="parágrafo">
+        <strong>Instagram:</strong> @agropecuariamaria
+    </p>
+
+    <p class="parágrafo">
+        <strong>Endereço:</strong> Rua das Flores, 150 - Centro
+    </p>
+
+    <p class="parágrafo">
+        <strong>Horário de Atendimento:</strong>
+        Segunda a sexta-feira, das 8h às 18h.
+        Sábados, das 8h às 12h.
+    </p>
+
+    <hr>
+
+    <!-- Formulário de contato -->
+    <h2 class="subtítulo">Envie sua Mensagem</h2>
+
+    <p class="parágrafo">
+        Preencha o formulário abaixo e envie sua mensagem.
+        Será um prazer atender você!
+    </p>
+
+    <form action="#" method="post">
+
+        <!-- Nome do cliente -->
+        <label for="nome">Nome completo:</label>
+        <input type="text" id="nome" name="nome"
+        placeholder="Digite seu nome" required>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"
+        placeholder="Digite seu email" required>
+
+        <!-- Telefone -->
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone"
+        placeholder="(47) 99999-9999">
+
+        <!-- Assunto -->
+        <label for="assunto">Assunto:</label>
+        <select id="assunto" name="assunto">
+
+            <option value="">Selecione um assunto</option>
+            <option value="produtos">Informações sobre produtos</option>
+            <option value="precos">Consulta de preços</option>
+            <option value="pedidos">Pedidos</option>
+            <option value="sugestoes">Sugestões</option>
+            <option value="duvidas">Dúvidas</option>
+            <option value="outros">Outros assuntos</option>
+
+        </select>
+
+        <!-- Mensagem -->
+        <label for="mensagem">Sua mensagem:</label>
+        <textarea id="mensagem" name="mensagem"
+        rows="6"
+        placeholder="Digite sua mensagem aqui..."
+        required> </textarea>
+
+        <!-- Botão de envio -->
+        <input type="submit" value="Enviar Mensagem">
+
+    </form>
+
+    <hr>
+
+    <h2 class="subtítulo">
+        Agropecuária Maria - Estamos aqui para ajudar você!
+    </h2>
+
+    <hr>
+
+    <!-- Rodapé -->
+    <p class="parágrafo">
+        Telefone: 47 3330-3325 |
+        Email: agropecuariamaria@hotmail.com |
+        Instagram: @agropecuariamaria
+    </p>
+
 </body>
 </html>

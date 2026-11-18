@@ -1,0 +1,110 @@
+/* Configuração geral da página */
+body {
+    background-color: #f1f5eb;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Título principal */
+.título {
+    color: #000000;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Menu de navegação */
+nav {
+    text-align: center;
+    margin: 25px 0;
+}
+
+/* Botões dos links */
+nav a {
+    display: inline-block;
+    background-color: #527d45;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 20px;
+    margin: 5px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+nav a:hover {
+    background-color: #2f542c;
+    transform: scale(1.05);
+}
+
+/* Subtítulos */
+.subtítulo {
+    color: #000000;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/* Textos de apresentação */
+.subtítulo3 {
+    color: #000000;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.7;
+    margin: 20px;
+}
+
+/* Organização dos produtos */
+.produto {
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Imagens dos produtos */
+.produto img {
+    width: 80%;
+    max-width: 600px;
+    height: 350px;
+    object-fit: contain;
+    border-radius: 12px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Descrição dos produtos */
+.parágrafo {
+    color: #000000;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 1.8;
+    text-align: justify;
+    margin: 20px 30px;
+}
+
+/* Preços dos produtos */
+.preço {
+    color: #000000;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #dce8d3;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 250px;
+}
+
+/* Linhas divisórias */
+hr {
+    border: none;
+    border-top: 2px solid #9caf91;
+    margin: 30px 0;
+}

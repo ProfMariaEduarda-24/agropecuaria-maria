@@ -9,10 +9,100 @@ body::before {
     z-index: -1;
     pointer-events: none;
 }
-h1{
-    font: size 35px; 
-    color: #000;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+/* Configuração geral da página */
+body {
+    background-color: #f1f5eb;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Título principal */
+.título {
+    color: #000000;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Menu de navegação */
+nav {
+    text-align: center;
+    margin: 25px 0;
+}
+
+/* Botões dos links */
+nav a {
+    display: inline-block;
+    background-color: #527d45;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 20px;
+    margin: 5px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+nav a:hover {
+    background-color: #2f542c;
+    transform: scale(1.05);
+}
+
+/* Subtítulos */
+.subtítulo {
+    color: #000000;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/* Textos de destaque */
+.subtítulo3 {
+    color: #000000;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.7;
+    margin: 20px;
+}
+
+/* Parágrafos */
+.parágrafo {
+    color: #000000;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 1.8;
+    
+    margin: 20px 30px;
+}
+
+/* Listas */
+.ul {
+    color: #000000;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 2;
+    margin: 20px 40px;
+    text-align: left;
+    padding-left: 40px;
+}
+
+/* Destaque dos valores */
+strong {
+    color: #000000;
+    font-weight: bold;
+}
+
+/* Linhas divisórias */
+hr {
+    border: none;
+    border-top: 2px solid #9caf91;
+    margin: 30px 0;
 }

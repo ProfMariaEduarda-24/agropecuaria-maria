@@ -1,0 +1,150 @@
+
+/* Configuração geral da página */
+body {
+    background-color: #f1f5eb;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Título principal */
+.título {
+    color: #000000;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Menu de navegação */
+nav {
+    text-align: center;
+    margin: 25px 0;
+}
+
+/* Botões dos links */
+nav a {
+    display: inline-block;
+    background-color: #527d45;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 20px;
+    margin: 5px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+nav a:hover {
+    background-color: #2f542c;
+    transform: scale(1.05);
+}
+
+/* Subtítulos */
+.subtítulo {
+    color: #000000;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/* Texto de apresentação */
+.subtítulo3 {
+    color: #000000;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.7;
+    margin: 20px;
+}
+
+/* Parágrafos */
+.parágrafo {
+    color: #000000;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 1.8;
+    text-align: justify;
+    margin: 20px 30px;
+}
+
+/* Formulário */
+form {
+    background-color: #dce8d3;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+/* Campos de identificação */
+label {
+    display: block;
+    color: #000000;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+
+/* Campos de preenchimento */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #9caf91;
+    border-radius: 7px;
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Destaque ao selecionar um campo */
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #355c35;
+}
+
+/* Área da mensagem */
+textarea {
+    resize: vertical;
+}
+
+/* Botão de enviar */
+input[type="submit"] {
+    display: block;
+    background-color: #527d45;
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 14px 25px;
+    border: none;
+    border-radius: 8px;
+    margin: 25px auto 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Efeito do botão de enviar */
+input[type="submit"]:hover {
+    background-color: #2f542c;
+    transform: scale(1.05);
+}
+
+/* Linhas divisórias */
+hr {
+    border: none;
+    border-top: 2px solid #9caf91;
+    margin: 30px 0;
+}

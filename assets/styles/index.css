@@ -5,48 +5,81 @@ div.agro-1 img {
     border-radius: 10px;
 }
 
-body 
-{
-    background-color:#75C9AD;
-    color:brown;
 
-     margin:0px;
-    padding:0px;
+/* Configuração geral da página */
+body {
+    background-color: #f1f5eb;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #333333;
 }
-.título
-{
-    font: size 35px; 
-    color: #000;
+
+/* Título principal */
+.título {
+    color: #355c35;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    font-size: 32px;
 }
-.subtítulo
-{
-    color: #000;
+
+/* Menu de navegação */
+nav {
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font: size 25px; ;
+    margin: 25px 0;
 }
-.subtítulo3
-{
-    color: #000;
+
+/* Botões dos links */
+nav a {
+    display: inline-block;
+    background-color: #527d45;
+    color: white;
+    text-decoration: none;
+    padding: 12px 18px;
+    margin: 5px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+nav a:hover {
+    background-color: #2f542c;
+    transform: scale(1.05);
+}
+
+/* Subtítulos */
+.subtítulo {
+    color: #355c35;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
 }
 
-.ul
-{
-    color: #000;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10px;   
+.subtítulo3 {
+    color: #444444;
+    text-align: justify;
+    font-weight: normal;
+    line-height: 1.6;
+    margin: 20px;
 }
 
-.parágrafo
+/* Parágrafos */
+.parágrafo {
+    font-size: 17px;
+    line-height: 1.6;
+}
 
-{
-    font-weight:bold;
-    color: #000;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;  }
+/* Listas */
+.ul {
+    line-height: 1.8;
+}
+
+/* Imagem principal */
+.agro-1 {
+    text-align: center;
+}
+
+
+/* Linhas divisórias */
+hr {
+    border: none;
+    border-top: 1px solid #b7c9ad;
+    margin: 25px 0;
+}
